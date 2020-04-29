@@ -76,3 +76,7 @@ draw :: Hand -> Hand -> (Hand, Hand)
 draw Empty _ = error "draw: The deck is empty"
 draw (Add card h) hand = (h, (Add card hand))
 
+
+
+playBank :: Hand -> Hand
+playBank = undefined
